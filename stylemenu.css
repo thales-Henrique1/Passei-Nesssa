@@ -1,0 +1,44 @@
+.Meu_Item {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #34495e;
+    padding: 15px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.Item_Menu {
+    color: #ecf0f1;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Item_Menu i {
+    font-size: 1.3em; 
+    transition: transform 0.2s ease;
+}
+
+.Item_Menu:hover {
+    background-color: #2c3e50;
+    color: #ffffff;
+    transform: scale(1.1); 
+}
+
+.Item_Menu.active {
+    background-color: #1E90FF;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Item_Menu:hover i {
+    transform: rotate(10deg); 
+}
+
